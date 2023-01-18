@@ -1,0 +1,118 @@
+/* Layout */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2b283a;
+    margin: 0;
+}
+
+header,
+.section-two {
+    background: #5f29a3;
+}
+
+
+.section-two {
+    color: whitesmoke;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+
+.main-image {
+    width: 100%;
+}
+
+
+.section-two-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+footer {
+    text-align: center;
+    color: #5f29a3;
+}
+
+header,
+section,
+footer {
+    padding: 45px 0;
+}
+
+
+
+/* Typography */
+
+h1,
+h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 20px;
+    color: #d0aaff;
+    margin: 0;
+}
+
+p {
+    line-height: 23px;
+}
+
+/* Links */
+
+a {
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+    color: #d4b44c;
+    text-decoration: underline dotted;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.buy-btn-dark {
+    background: #5f29a3;
+    color: whitesmoke;
+}
+
+.info-btn-mid,
+.contact-btn-mid {
+    background: #f0e0ff;
+    color: #5f29a3;
+}
+
+.about-Us-btn-light {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn:hover,
+.btn:active {
+    background: #f3e885;
+    color: #2b283a;
+    text-decoration: none;
+}
